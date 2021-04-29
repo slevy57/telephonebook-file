@@ -1,16 +1,11 @@
 package hu.nive.ujratervezes.io.phonebook;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Phonebook {
 
-
     public void exportPhonebook(Map<String, String> contacts, String output) {
-
 
         if (contacts == null) {
             throw new IllegalArgumentException();
